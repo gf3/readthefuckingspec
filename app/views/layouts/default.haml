@@ -1,0 +1,28 @@
+!!! 5
+%html{ lang: "en" }
+  %head
+
+    %title Read The Fucking Spec
+
+    // Reset
+    = stylesheet_link_tag 'tripoli.simple'
+    /[if IE]
+      = stylesheet_link_tag 'tripoli.simple.ie'
+
+    // Web Fonts
+
+    // Styles
+    = stylesheet_link_tag 'readthefuckingspec'
+
+  %body.content
+
+    %header
+      - link_to '/' do
+        %h1 Read The Fucking Spec
+
+    = yield
+
+    %footer
+      %header
+        %h3 Footer
+    

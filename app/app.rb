@@ -14,7 +14,7 @@ class Readthefuckingspec < Padrino::Application
   # set :locale_path, "bar"     # Set path for I18n translations (defaults to app/locale/)
   # enable  :sessions           # Disabled by default
   # disable :flash              # Disables rack-flash (enabled by default if sessions)
-  # layout  :my_layout          # Layout can be in views/layouts/foo.ext or views/foo.ext (default :application)
+  layout    :default            # Layout can be in views/layouts/foo.ext or views/foo.ext (default :application)
   #
 
   ##

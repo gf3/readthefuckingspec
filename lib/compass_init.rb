@@ -10,11 +10,18 @@ module CompassInitializer
       config.project_path = Padrino.root
       config.sass_dir = "app/stylesheets"
       config.project_type = :stand_alone
+
       config.http_path = "/"
+
       config.css_dir = "public/stylesheets"
+      config.http_stylesheets_path = "/stylesheets"
+
       config.images_dir = "public/images"
       config.http_images_path = "/images"
+
       config.javascripts_dir = "public/javascripts"
+      config.http_javascripts_path = "/javascripts"
+
       config.output_style = :compressed
     end
 
